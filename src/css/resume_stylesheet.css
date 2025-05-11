@@ -22,7 +22,7 @@ body {
 }
 
 .contact-info a:hover {
-    color:pink; /* Adds underline on hover */
+    color:#ffc0cb; 
   }
 
 .contact-info a:not(:last-child)::after {
@@ -30,6 +30,18 @@ body {
     color: gray; /* Set color of the separator */
     margin:20px;
 }
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    justify-content: center;
+    color: #333333;
+    font-style: italic;
+}
+
+a:hover {
+    color:#ffc0cb;
+  }
 
 .profile-photo {
     width: 300px; /* Adjust size as needed */

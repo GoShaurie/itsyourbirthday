@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charter-webfont@4/charter.min.css" />
-    <link rel="stylesheet" href="../css/resume_stylesheet.css">
+    <link rel="stylesheet" href="./src/css/resume_stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="photo">
-            <img src="../../imgs/my_photo.jpg" class="profile-photo" alt="my profile photo" width="200px">
+            <img src="./imgs/my_photo.jpg" class="profile-photo" alt="my profile photo" width="200px">
         </div>
     </div>
 
@@ -110,66 +110,6 @@
 
                 <div class="entry">
 
-                    <span class="entry-heading">Summer Internship at HILTI<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;July - August 2023</span></span>
-
-                    <span class="entry-text">
-
-                        <span class="entry-text-subdomain">Product Management</span>
-                        Worked on improving user flows for the Web Application.
-                        <ol>
-                            <li>Analyzed the existing Google Analytics setup to log user interaction with the web and mobile app.</li>
-                            <li>Understanding business requirements, I identified critical gaps in the implementation.</li>
-                            <li>Developed a roadmap to increase coverage and mitigate the gaps, ensuring that essential metrics that were previously unlogged are now being captured</li>
-                        </ol>        
-                    </span>
-
-                    <span class="entry-date">
-                        
-                    </span>
-
-                </div>
-
-                <div class="entry">
-
-                    <span class="entry-heading">Data Science Intern at Grid Dynamics<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;January - August 2024</span></span>
-
-                    <span class="entry-text">
-                        <span class="entry-text-subdomain">Data Exploration and storytelling</span>
-                        Analysed the India's trade dependance on China using the Global Trade Dataset
-                        <ol>
-                            <li>Made interactive visualisations using python, Bokeh to show the trade dependance</li>
-                            <li>Analysed the policies implemented by the two countries to understand the causation</li>
-                        </ol>
-
-                        <span class="entry-text-subdomain">Model training</span>
-                        Trained a Graph Convolutional Network for edge prediction on a citation network dataset
-                        <ol>
-                            <li>Trained a simple Multi-Layer Perceptron as a base model to set a benchmark and get motivation to use a GCN</li>
-                            <li>Trained the GCN and conducted 3 experiments:</li>
-                            <ol class="entry-list-1">
-                                <li>Edge sampling : experimented with sampling 50% and 25% of edges</li>
-                                <li>Dataset size : experimented with sampling dataset sizes of 200 and 500 communities</li>
-                                <li>Balancing community size : sampled with inverse proportionality to community size frequency, to get a balanced distribution in the training dataset</li>
-                            </ol>
-                        </ol>
-
-                        <span class="entry-text-subdomain">Model interpretability and Deployment</span>
-                        Used techniques to make the "black-box" ML model interpretable
-                        <ol>
-                            <li>Explainable AI - Which features of the input are the most influential in governing its output</li>
-                            <li>Deployed the model and exposed functionality through APIs using fastAPI</li>
-                        </ol>
-
-                    </span>
-
-                    <span class="entry-date">
-                        
-                    </span>
-
-                </div>
-
-                <div class="entry">
-
                     <span class="entry-heading">Data Scientist at Saltmine<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;August 2024 - Present</span></span>
 
                     <span class="entry-text">
@@ -177,12 +117,11 @@
                         <span class="entry-text-subdomain">Developed an analyst chatbot, Saltbot</span>
                         Saltbot is an AI powered analyst chatbot. It can fetch data, create visualisations and give domain-rich insights. 
                         <ol>
-                            <li>Led the project from scratch till production-ready level. Understood the market requirements and prioritised features</li>
-                            <li>Took bold-decisions and innovated solutions at critical junctures</li>
+                            <li>Led the project from scratch till production-ready level. Understood the market requirements and making wise-decisions under ambiguity.</li>
                             <li>Implemented the following techniques</li>
                             <ol class="entry-list-1">
                                 <li>Prompt Engineering : Iterative prompt optimisation, few-shot prompting, semantic search</li>
-                                <li>Automated visualisations : using LIDA package</li>
+                                <li>Automated visualisation generation</li>
                                 <li>NLP : Named Entity Recognition to understand custom metrics</li>
                             </ol>
 
@@ -193,6 +132,63 @@
                         
                     </span>
                 </div>
+
+                <div class="entry">
+
+                    <span class="entry-heading">Data Science Intern at Grid Dynamics<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;January - August 2024</span></span>
+
+                    <span class="entry-text"> 
+                        <span class="entry-text-subdomain">Data Exploration and storytelling <a class="other-links"  href="reports/Global_Trade_Dataset___EDA_Project_1.pdf" target="_blank" rel="noopener noreferrer">[report]</a></span>
+                        Analysed the India's trade dependance on China using <a class="other-links" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/H8SFD2" target="_blank" rel="noopener noreferrer">International Trade Data</a> published by United Nations Statistics Division
+                        <ol>
+                            <li>Made interactive visualisations using python, Bokeh to show the trade dependance</li>
+                            <li>Analysed the globalisation and infrastructure policies implemented by the two countries to explore the causes of the trade dependance</li>
+                        </ol>
+
+                        <span class="entry-text-subdomain">Model training <a class="other-links"  href="reports/graph DL on DBLP Dataset.pdf" target="_blank" rel="noopener noreferrer">[report]</a></span>
+                        Trained a Graph Convolutional Network for edge prediction on a citation network dataset
+                        <ol>
+                            <li>Trained a simple Multi-Layer Perceptron as a base model to set a benchmark and get motivation to use a GCN</li>
+                            <li>Trained the GCN comparing performance variance with Edge Sampling, dataset size sampling and balanced dataset sampling</li>
+                        </ol>
+
+                        <span class="entry-text-subdomain">Model interpretability and Deployment <a class="other-links"  href="reports/APIs_XAI_report.pdf" target="_blank" rel="noopener noreferrer">[report]</a></span>
+                        Used techniques to make the "black-box" ML model interpretable
+                        <ol>
+                            <li>Explainable AI - Determined which nodes are the most influential, by gauging the model output sensitivity on input perturbation.</li>
+                            <li>Deployed the model, exposing functionality through APIs using fastAPI</li>
+                        </ol>
+
+                    </span>
+
+                    <span class="entry-date">
+                        
+                    </span>
+
+                </div>
+
+                <div class="entry">
+
+                    <span class="entry-heading">Summer Internship at HILTI<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;July - August 2023</span></span>
+
+                    <span class="entry-text">
+
+                        <span class="entry-text-subdomain">Software Developmet & Product Management</span>
+                        Worked on improving user flows for the Web Application.
+                        <ol>
+                            <li>Analyzed the existing Google Analytics setup to log user interaction with the web and mobile app.</li>
+                            <li>Identified critical gaps in the GA implementation impeding the delivery of business requirements </li>
+                            <li>Developed a roadmap to increase coverage and mitigate the gaps, ensuring that critical unlogged metrics were now being captured.</li>
+                        </ol>
+
+                    </span>
+
+                    <span class="entry-date">
+                        
+                    </span>
+
+                </div>
+
             </div>
     
             <div class="section" id="projects">
@@ -203,7 +199,11 @@
                 <div class="entry">
                     <span class="entry-heading">Dynamic Maze Solver<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;July 2021</span></span>
                     <span class="entry-text">
-                        Devised an algorithm that solves a maze where walls are revealed dynamically. I deliberated various search algorithms like DFS, BFS, Dijkstra, and A-star and innovated a hybrid search model combining A* and DFS, for the bot to reach the goal as fast as possible. Navigated the bot through the maze using a PID controller
+                        <ol>
+                            <li>Devised an algorithm to help a robot solve a maze. After deliberating various algorithms, I innovated a hybrid search model combining A* and DFS, for the bot to reach the goal as fast as possible.</li>
+                            <li>A-star aims at finding the shortest path, while DFS tries to reach the goal the fastest. Combining the two was a good way to balance the tradeoffs to minimise the time to goal.</li>
+                            <li>Navigated the robot through the maze using a PID controller.</li>
+                        </ol>
                     </span>
 
                     <span class="entry-date">
@@ -245,9 +245,8 @@
                     <span class="entry-heading">Sports<span class="infinity">&nbsp;&nbsp;&nbsp;&nbsp;&infin;</span></span>
                     <span class="entry-text">
                         <ol>
-                            <li>Lawn Tennis is my favourite sport. Rafa Nadal is my favourite player.</li>
-                            <li>I have trained as an athelete for 100m and 400m races, and I recreationally play Football, Basketball, Cricket.</li>
-                            <li>I won the MS Venkatesh Sports Excellence Scholarship for 2024. In my college tenure of 2.5 years (shortened due to CoVid-19) I won 23 medals.</li>
+                            <li>Trained as an athelete for 100m and 400m races, and I recreationally play Football, Basketball, Cricket.</li>
+                            <li>Won the MS Venkatesh Sports Excellence Scholarship for 2024. In my college tenure of 2.5 years I won 23 medals.</li>
                         </ol>
                     </span>
 
@@ -270,8 +269,6 @@
                         <ol>
                             <li>Neural Networks and Deep Learning</li>
                             <li>Convolutional Neural Networks</li>
-                            <li>Improving Deep Neural Networks</li>
-                            <li>Structuring Machine Learning Projects</li>
                         </ol>
                     </span>
 
@@ -286,10 +283,8 @@
                     <span class="entry-heading">Finance and Timeseries analysis<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;April 2024</span></span>
                     <span class="entry-text">
                         <ol>
-                            <li>Introduction to Financial Concepts in Python</li>
-                            <li>Introduction to Portfolio Analysis in Python</li>
-                            <li>ML for Time Series Data</li>
-                            <li>ARIMA Models in Python</li>
+                            <li>Introduction to <a class="other-links"  href="certificates/introfinance_datacamp.pdf" target="_blank" rel="noopener noreferrer">Financial Concepts</a> and <a class="other-links"  href="certificates/introportfolio_datacamp.pdf" target="_blank" rel="noopener noreferrer">Portfolio Analysis</a> in Python</li>
+                            <li><a class="other-links"  href="certificates/arima_datacamp.pdf" target="_blank" rel="noopener noreferrer">ARIMA</a> and <a class="other-links"  href="certificates/arima_datacamp.pdf" target="_blank" rel="noopener noreferrer">ML for Time Series Data</a></li>
                         </ol>
                     </span>
 
@@ -304,8 +299,7 @@
                     <span class="entry-heading">Language Models<span class="new-date">&nbsp;&nbsp;&nbsp;&nbsp;June 2024</span></span>
                     <span class="entry-text">
                         <ol>
-                            <li>Introduction to Natural Language Processing in Python</li>
-                            <li>Large Language Model Concepts</li>
+                            <li>Introduction to <a class="other-links"  href="certificates/intronlp_datacamp.pdf" target="_blank" rel="noopener noreferrer">Natural Language Processing</a> and <a class="other-links" href="certificates/llmconcepts_datacamp.pdf" target="_blank" rel="noopener noreferrer">LLM Concepts</a></li>
                         </ol>
                     </span>
 
