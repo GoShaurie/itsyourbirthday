@@ -22,7 +22,7 @@ body {
 }
 
 .contact-info a:hover {
-    color:#ffc0cb; 
+    color:#E97451; 
   }
 
 .contact-info a:not(:last-child)::after {
@@ -40,7 +40,7 @@ a{
 }
 
 a:hover {
-    color:#ffc0cb;
+    color:#E97451;
   }
 
 .profile-photo {
