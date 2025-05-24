@@ -6,7 +6,7 @@ body {
 }
 
 #intro-container{
-    display:block;
+    display:grid;
     text-align: center;
 }
 
@@ -51,21 +51,23 @@ a:hover {
     margin: 20px auto; /* Centers the image */
 }
  
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: auto;
+}
+
 #body-container {
     display: grid;
-    grid-template-columns: 2fr 4fr; /* First column takes 2 parts, second takes 3, third takes 1 */
-    height: 100vh;
     gap: 10px;
     padding: 10px;
+    max-width: 100%;
+    width: 100%;
 }
 
-
-
-.body-left{
-    display:auto;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-}
 .body-main{
     display:inline;
 }
